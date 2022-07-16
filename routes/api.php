@@ -24,7 +24,7 @@ Route::get('getfood',[FoodController::class,'getFood']);
 Route::post('addfood', [FoodController::class, 'AddFood']);
 Route::post('adduser', [UserController::class, 'addUser']);
 Route::get('login', [UserController::class, 'login']);
-Route::get('search/{location}', [FoodController::class, 'search']);
+Route::get('git/{location}', [FoodController::class, 'search']);
 
 
 
